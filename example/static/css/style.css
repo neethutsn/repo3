@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 50vh;
+    background: color #aa36b9;
+}
+body{
+    background-color: cadetblue;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px  rgb(226, 132, 9);
+    background-color: blanchedalmond;
+    height: 40vh;
+}
+
+.navbar-nav{
+    padding: 20px;
+}
+.head{
+    text-align: left;
+    
+}
+a.home p{
+    padding: 20px;
+    font-size: small;
+}

@@ -1,0 +1,105 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-style">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <a href=""><img src="{%static 'images/logo.jpg'%}" alt=""></a>
+                
+                </div>
+                <div class="head">
+                    <h1> College Of Engineering Poonjar</h1>
+                    <h5>Managed by IHRD, A Govt. of Kerala undertaking</h5>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-darkorange">
+                    <a class="navbar-brand" href="#home">Home</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#admission"> Admission<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#faculty">Faculty</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#aboutus">About us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Department
+                          </a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Electronics</a>
+                            <a class="dropdown-item" href="#">Computer science</a>
+                            <a class="dropdown-item" href="#">IT</a>
+                          </div>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+    </nav>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="{%static 'images/1.jpg'%}" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="{%static 'images/2.jpg'%}" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="{%static 'images/3.jpg'%}" class="d-block w-100" alt="...">
+        </div>
+      </div>
+     <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="home">
+  <h1>Home</h1>
+  <p>College of Engineering Poonjar was established in 2000 By Institute of Human Resources Development (IHRD), an autonomous educational institution under the Government of Kerala. The management of IHRD is vested with a Governing Body composed of with the Hon’ble Minister of Education, Kerala State, as the Chairman and Additional Chief Secretary, Higher Education Department, Government of Kerala as the Vice-Chairman. IHRD is based on the principle, “Think Globally and Act Locally” and its associate institutions are located in diverse locations in Kerala to achieve this goal. College of Engineering Poonjar is located in a scenic place on a calm hilly region with pure air and greenery congenial for any student to pursue learning with dedication.
+    College of Engineering Poonjar is a vibrant community indulged in scholarship and devoted to learning always remembering that education is a service to the nation and humanity. It provides undergraduate and post graduate streams in different branches and is currently striving to become a potential research centre. This college works on the basic tenet of discovering and transmitting knowledge in engineering and technology which are beneficial to the society as a whole. Both class room instructions and personal study are given equal importance to face all challenges in the rapidly changing engineering educational field. Its commitment to teaching is reflected in the high position it enjoys in all University examination results since its establishment. Students are encouraged to bring knowledge to bear on the arising challenges in their future professional life. Faculty of the institution imparts balance of hand-on problem solving and love for theoretical studies. Providing a clear vision of how digital technologies shape new world, all learners are motivated for their entrepreneurship or to become competent engineers. College strives to generate, disseminate and preserve knowledge in cooperation with the best in the engineering field. College tries hard in developing a passion to work creatively and effectively, thus transforming the life of a student in their attempt to become talented professionals.</p>
+
+</div>
+<div class="admission">
+    <h1>Admission</h1>
+    <p>Helpline Numbers 9447395515 , 9446122060
+      College Of Engineering Poonjar offers the following full-time Graduate courses of APJ Abdul Kalam Technological University(KTU) and is approved by the AICTE. The institute is owned by Government of Kerala and managed by Institute of Human Resource and Development (IHRD).
+      
+      Academic Eligibility : Candidates who have passed Higher Secondary Examination, Kerala, or Examinations recognized as equivalent thereto, with 50 % marks in Mathematics separately, and 50 % marks in Mathematics, Physics and Chemistry/Bio-technology/Computer Science /Biology put together are eligible for admission.</p>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</html>
